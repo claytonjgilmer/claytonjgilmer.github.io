@@ -1,0 +1,24 @@
+base_url = "https://claytonjgilmer.github.io"
+compile_sass = true
+title = "clayton's site"
+description = "threat intel, rust, etc."
+generate_feed = true
+theme = "after-dark"
+
+[markdown]
+highlight-code = true
+
+taxonomies = [
+    {name = "categories", feed = true},
+    {name = "tags", feed = true},
+]
+
+[extra]
+author = "Clayton Gilmer"
+after_dark_menu = [
+    {url = "$BASE_URL", name = "home"},
+    {url = "$BASE_URL/categories", name = "categories"},
+    {url = "$BASE_URL/tags", name = "tags"},
+    {url = "https://github.com/claytonjgilmer", name = "github"},
+]
+after_dark_title = "clayton's site"
