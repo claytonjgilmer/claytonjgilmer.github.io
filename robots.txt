@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://claytonjgilmer.github.io/sitemap.xml
